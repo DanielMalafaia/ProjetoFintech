@@ -19,6 +19,7 @@ public static void main(String[] args) {
 	    // esse crud dinamico vai popular as tabelas T_PROJETO_FINTECH e T_USUARIO, que foram recem criadas, estão vazias. cd_instancia é chave estrangeira entre as tabelas, por isso nao pode ter 2 usuarios com mesmo cd_instancia
 	    // preciso que esse crud dinamico chame a função getAll e retorne todos os usuarios
 	    // preciso corrigir o motivo de todos os usuarios estarem sendo estanciados com mesmo cd_instancia
+	    // tambem está nesse repositório o arquivo "DDL" demosntrando como estão sendo criadas as tabelas, eu rodo esse arquivo, as tabelas são geradas, depois rodo o crud dinamico, essa é a dinamica do projeto
 
 	    try {
 			ProjetoFintech projetofintech = new ProjetoFintech();		
